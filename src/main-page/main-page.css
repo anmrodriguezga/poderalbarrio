@@ -1,0 +1,10 @@
+div.header {
+  max-width: 100%;
+  margin: 0 18px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
