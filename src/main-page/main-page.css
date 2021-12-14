@@ -3,8 +3,42 @@ div.header {
   margin: 0 18px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  max-width: 100%;
+.footerLinks {
+  max-height: 80px;
+}
+
+.fullHeight {
+  height: 581px;
+  background-color: #e5e5e5;
+  text-align: center;
+  align-content: center;
+}
+
+.standardDiv {
+  height: 480px;
+  background-color: #EAE8EE;
+  text-align: center;
+  align-content: center;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #525252;
+  overflow-wrap: break-word;
+}
+
+.subtitle {
+  font-family: Spectral;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #525252;
 }

@@ -1,8 +1,14 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
+import '../main-page/main-page.css'
 
 const Publications = () => {
-    return(
-        <div>Publications</div>
+    return (
+        <>
+            <Row className='g-0 fullHeight'>
+                <Col>Publicaciones</Col>
+            </Row>
+        </>
     );
 }
 
