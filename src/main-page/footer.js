@@ -18,13 +18,13 @@ const Footer = () => {
                             </Nav.Link>
                         </Col>
                         <Col>
-                            <Nav.Link href="https://www.twitter.com/" target='_blank'>
-                                <FontAwesomeIcon icon={Icons.faTwitter} size='2x' />
+                            <Nav.Link href="https://www.instagram.com/" target='_blank'>
+                                <FontAwesomeIcon icon={Icons.faInstagram} size='2x' />
                             </Nav.Link>
                         </Col>
                         <Col>
-                            <Nav.Link href="https://www.instagram.com/" target='_blank'>
-                                <FontAwesomeIcon icon={Icons.faInstagram} size='2x' />
+                            <Nav.Link href="https://www.tiktok.com/" target='_blank'>
+                                <FontAwesomeIcon icon={Icons.faTiktok} size='2x' />
                             </Nav.Link>
                         </Col>
                     </Row>
