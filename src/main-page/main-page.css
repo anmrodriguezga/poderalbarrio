@@ -12,6 +12,7 @@ div.header {
   background-color: #e5e5e5;
   text-align: center;
   align-content: center;
+  background-size: cover;
 }
 
 .standardDiv {
@@ -41,4 +42,18 @@ div.header {
   letter-spacing: 0.05em;
 
   color: #525252;
+}
+
+.icons {
+  padding: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .standardDiv {
+    justify-content: start;
+    height: 960px;
+    background-color: #EAE8EE;
+    text-align: center;
+    align-content: center;
+  }
 }

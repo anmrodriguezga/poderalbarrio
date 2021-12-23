@@ -7,10 +7,12 @@ const Banner = (props) => {
         return (
             <Container>
                 <Row className='banner'>
-                    <Col xs={8} md={5} className='banner-image'>
+                    <Col xs={10} md={5} className='banner-image'
+                        style={{ backgroundImage: 'url(' + props.url + ')' }}
+                    >
                         {/* xs=12 md=8 */}
                     </Col>
-                    <Col xs={8} md={5} className='banner-text'>
+                    <Col xs={9} md={6} className='banner-text'>
                         <Container>
                             <div className='banner-text-title'>{props.title}</div>
                             <p><b>{props.subtitle}</b></p>
@@ -24,7 +26,7 @@ const Banner = (props) => {
         return (
             <Container>
                 <Row className='banner'>
-                    <Col xs={8} md={5} className='banner-text-inverted'>
+                    <Col xs={9} md={5} className='banner-text-inverted'>
                         <Container>
                             <div className='banner-text-title-inverted'>{props.title}</div>
                             <p><b>{props.subtitle}</b></p>
@@ -32,7 +34,9 @@ const Banner = (props) => {
                             <Button className='contact-button'>Contáctanos</Button>
                         </Container>
                     </Col>
-                    <Col xs={8} md={5} className='banner-image'>
+                    <Col xs={10} md={5} className='banner-image'
+                        style={{ backgroundImage: 'url(' + props.url + ')' }}
+                    >
                         {/* xs=12 md=8 */}
                     </Col>
                 </Row>
