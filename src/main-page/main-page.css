@@ -17,7 +17,7 @@ div.header {
 
 .standardDiv {
   height: 480px;
-  background-color: #EAE8EE;
+  background-color: #eae8ee;
   text-align: center;
   align-content: center;
 }
@@ -48,11 +48,32 @@ div.header {
   padding: 0 !important;
 }
 
+.continuousTitle {
+  margin-top: -50px !important;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 130px;
+  line-height: 198px;
+  letter-spacing: 0.05em;
+  color: rgba(127, 57, 156, 0.71);
+}
+
+.continuousSubtitle {
+  margin-bottom: -100px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 125px;
+  letter-spacing: 0.1em;
+  color: #5090dc;
+}
+
 @media only screen and (max-width: 767px) {
   .standardDiv {
     justify-content: start;
     height: 960px;
-    background-color: #EAE8EE;
+    background-color: #eae8ee;
     text-align: center;
     align-content: center;
   }
