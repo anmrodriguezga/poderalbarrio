@@ -8,6 +8,7 @@ const Home = () => {
     return (
         <>
             <Row className='g-0 fullHeight' 
+                style={{backgroundColor: '#E5E5E5'}}
                 // Uncomment next line to add image:
                 // style={{ backgroundImage: 'url(/assets/ejemplo1.jpg)' }}
             >
@@ -20,6 +21,7 @@ const Home = () => {
                     <p className='subtitle'>por la participación y el fortalecimiento desde los barrios.</p>
                 </Col>
             </Row>
+
             <Row className='g-0 standardDiv'>
                 <Col>
                     <Banner
@@ -35,22 +37,26 @@ const Home = () => {
                     />
                 </Col>
             </Row>
+
             <Row className='g-0 standardDiv'>
                 <Col xs={12} md={6}>
                     <LinkableImage 
                         page='PROYECTOS' 
+                        url='/projects'
                         // Uncomment next line to add image:
-                        url='/assets/ejemplo1.jpg' 
+                        image='/assets/ejemplo1.jpg' 
                     />
                 </Col>
                 <Col xs={12} md={6}>
                     <LinkableImage 
-                        page='PUBLICACIONES' 
+                        page='PUBLICACIONES'
+                        url='/publications' 
                         // Uncomment next line to add image:
-                        url='/assets/ejemplo2.jpg' 
+                        image='/assets/ejemplo2.jpg' 
                     />
                 </Col>
             </Row>
+            
             <Row className='g-0 standardDiv'>
                 <Col>
                     <Banner 

@@ -4,7 +4,7 @@ import './continuousText.css'
 const ContinuousText = (props) => {
     return (
         <div className="wrapper">
-            <div className="marquee">
+            <div className="marquee" style={{animationDirection: props.direction}}>
                 <p>{props.text}</p>
                 <p>{props.text}</p>
             </div>

@@ -1,6 +1,6 @@
 .full-height-img {
     height: 480px;
-    margin: 0 20px;
+    margin: 0 10px;
     background-size: cover;
 }
 
@@ -15,4 +15,80 @@
     line-height: 14px;
     letter-spacing: 0.05em;
     color: #463950;
+}
+
+.no-style-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.thumbnail {
+    margin: 14px;
+    background-color: #eae8ee;
+}
+
+.thumbnail-img {
+    height: 100%;
+    width: 100%;
+}
+
+.matrix-title {
+    width: 450px !important;
+    position: absolute;
+    top: 743px;
+    left: 108px;
+    z-index: 10;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 66px;
+    letter-spacing: 0.05em;
+    color: #463950;
+}
+
+.matrix-subtitle {
+    width: 358px !important;
+    position: absolute;
+    top: 808px;
+    left: 108px;
+    z-index: 10;
+    font-family: Spectral;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #463950;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .matrix-title {
+        width: 220px !important;
+        position: absolute;
+        top: 743px;
+        left: 25px;
+        z-index: 10;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #463950;
+    }
+
+    .matrix-subtitle {
+        width: 220px !important;
+        position: absolute;
+        top: 808px;
+        left: 25px;
+        z-index: 10;
+        font-family: Spectral;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #463950;
+    }
 }

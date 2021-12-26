@@ -1,18 +1,32 @@
 import React from 'react';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import './banner.css'
+import { ImageMatrix } from './image';
 
 const Banner = (props) => {
+    var background = props.innerMatrix ? '#eae8ee' : '#e1e1e1';
+    function InnerMatrix(innerMatrix) {
+        if (innerMatrix) {
+            return (
+                <ImageMatrix 
+                    size={4}
+                    frames={6}
+                />
+            );
+        }
+    }
+
     if (props.inverted) {
         return (
             <Container>
                 <Row className='banner'>
-                    <Col xs={10} md={5} className='banner-image'
-                        style={{ backgroundImage: 'url(' + props.url + ')' }}
+                    <Col xs={10} sm={9} md={6} lg={5} xl={4} 
+                        className='banner-image'
+                        style={{ backgroundImage: 'url(' + props.url + ')', backgroundColor: background}}
                     >
-                        {/* xs=12 md=8 */}
+                        {InnerMatrix(props.innerMatrix)}
                     </Col>
-                    <Col xs={9} md={6} className='banner-text'>
+                    <Col xs={9} sm={8} md={6} lg={7} xl={5} className='banner-text'>
                         <Container>
                             <div className='banner-text-title'>{props.title}</div>
                             <p><b>{props.subtitle}</b></p>
@@ -35,7 +49,7 @@ const Banner = (props) => {
                         </Container>
                     </Col>
                     <Col xs={10} md={5} className='banner-image'
-                        style={{ backgroundImage: 'url(' + props.url + ')' }}
+                        style={{ backgroundImage: 'url(' + props.url + ')', backgroundColor: background }}
                     >
                         {/* xs=12 md=8 */}
                     </Col>
