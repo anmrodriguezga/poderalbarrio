@@ -36,12 +36,17 @@
 
 .banner-text-title-inverted {
     margin-right: -24%;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 40px;
     line-height: 39px;
     letter-spacing: 0.05em;
-    color: #dc5078;
     padding: 2px;
+    z-index: 10;
+}
+
+.pink-banner {
+    color: #dc5078;
+    font-weight: bold;
 }
 
 .contact-button {
@@ -64,5 +69,32 @@
         height: 600px;
         align-items: center;
         justify-content: center;
+    }
+
+    .banner-text {
+        text-align: start;
+        align-self: center;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .banner-text-title {
+        margin-left: 0;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 35px;
+        letter-spacing: 0.05em;
+        color: #463950;
+        padding: 2px;
+    }
+
+    .banner-text-title-inverted {
+        margin-right: 0;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 35px;
+        letter-spacing: 0.05em;
+        padding: 2px;
+        z-index: 10;
     }
 }
