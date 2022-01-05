@@ -1,5 +1,6 @@
 import React from 'react';
-import { Row, Col, Image, Container, Button, ButtonGroup, Dropdown } from 'react-bootstrap';
+import { Row, Col, Image, Container, Button, Form } from 'react-bootstrap';
+import { TextDropdown, AppDatePicker } from '../components/dropdown';
 import '../main-page/main-page.css'
 
 const Projects = () => {
@@ -12,11 +13,11 @@ const Projects = () => {
             xl={12}
         >
             <Col
-                xs={{span: 8, order: 'last'}}
-                sm={{span: 8, order: 'last'}}
-                md={{span: 6, order: 'first'}}
-                lg={{span: 6, order: 'first'}}
-                xl={{span: 6, order: 'first'}}
+                xs={{ span: 8, order: 'last' }}
+                sm={{ span: 8, order: 'last' }}
+                md={{ span: 6, order: 'first' }}
+                lg={{ span: 6, order: 'first' }}
+                xl={{ span: 6, order: 'first' }}
             >
                 <Image
                     className='card-left'
@@ -28,18 +29,22 @@ const Projects = () => {
                     alt='img'
                     src='/assets/thumbnail.jpg'
                 />
-                <Image
-                    className='card-left'
-                    alt='img'
-                    src='/assets/thumbnail.jpg'
-                />
+                <Container style={{ marginLeft: '3vw' }}>
+                    <br />
+                    <div className='pink-banner'>
+                        ¿Tienes interés en realizar un proyecto con nosotros?
+                    </div>
+                    <br />
+                    <Button className='contact-button'>Contáctanos</Button>
+                    <br /><br /><br />
+                </Container>
             </Col>
             <Col
-                xs={{span: 8, order: 'first'}}
-                sm={{span: 8, order: 'first'}}
-                md={{span: 6, order: 'last'}}
-                lg={{span: 6, order: 'last'}}
-                xl={{span: 6, order: 'last'}}
+                xs={{ span: 8, order: 'first' }}
+                sm={{ span: 8, order: 'first' }}
+                md={{ span: 6, order: 'last' }}
+                lg={{ span: 6, order: 'last' }}
+                xl={{ span: 6, order: 'last' }}
             >
                 <Container
                     className='banner-text'
@@ -54,18 +59,28 @@ const Projects = () => {
                         estos proyectos. A continuación, puedes escoger
                         una o varias de las siguientes categorías para
                         filtrar los proyectos:</p>
-                    <Dropdown as={ButtonGroup}>
-                        <Button variant="success">Split Button</Button>
-
-                        <Dropdown.Toggle split variant="success" id="dropdown-split-basic" />
-
-                        <Dropdown.Menu>
-                            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
                 </Container>
+                <Row style={{ marginLeft: '-5vw' }}>
+                    <Col xs={{ span: 10, offset: 1 }} md={{ span: 3 }} lg={{ span: 2, offset: 1 }}>
+                        <AppDatePicker />
+                    </Col>
+                    <Col xs={{ span: 10, offset: 1 }} md={{ span: 3, offset: 2 }} lg={{ span: 2, offset: 2 }}>
+                        <TextDropdown
+                            placeholder='tema'
+                        />
+                    </Col>
+                </Row>
+                <Row style={{ marginLeft: '-5vw' }}>
+                    <Col xs={{ span: 8, offset: 1 }}>
+                        <Form.Control type="text" placeholder="escribir palabra clave..." />
+                    </Col>
+                </Row>
+                <Row style={{ marginLeft: '-5vw' }}>
+                    <Col xs={{ span: 10, offset: 1 }}>
+                        <Button className='search-button'>Buscar</Button>
+                    </Col>
+                </Row>
+                <br />
                 <Image
                     className='card-right'
                     alt='img'

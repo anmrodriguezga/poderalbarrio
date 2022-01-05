@@ -38,13 +38,19 @@
     margin-right: -24%;
     font-weight: 800;
     font-size: 40px;
-    line-height: 39px;
+    line-height: 66px;
     letter-spacing: 0.05em;
     padding: 2px;
     z-index: 10;
 }
 
 .pink-banner {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #463950;
+    padding: 2px;
     color: #dc5078;
     font-weight: bold;
 }

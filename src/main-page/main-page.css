@@ -105,6 +105,21 @@ div.header {
   padding: 0 0 40px 20px;
 }
 
+.search-button {
+  background-color: #463950 !important;
+  border-radius: 0% !important;
+  border-color: #463950 !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  width: 216px;
+  height: 50px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 8px
+}
+
 @media only screen and (max-width: 767px) {
   .standardDiv {
     justify-content: start;
