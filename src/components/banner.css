@@ -10,6 +10,7 @@
 }
 
 .banner-text {
+    font-family: "Spectral-Light";
     text-align: start;
     align-self: center;
     font-size: 16px;
@@ -17,6 +18,7 @@
 }
 
 .banner-text-inverted {
+    font-family: "Spectral-Light";
     text-align: end;
     align-self: center;
     font-size: 16px;
@@ -25,6 +27,7 @@
 }
 
 .banner-text-title {
+    font-family: "Mukta-ExtraBold";
     margin-left: -24%;
     font-size: 40px;
     font-weight: 800;
@@ -35,6 +38,7 @@
 }
 
 .banner-text-title-inverted {
+    font-family: "Mukta-ExtraBold";
     margin-right: -24%;
     font-weight: 800;
     font-size: 40px;
@@ -44,7 +48,14 @@
     z-index: 10;
 }
 
+.banner-text-subtitle {
+    font-family: "Spectral-ExtraBold";
+    font-size: 16px;
+    line-height: 25px;
+}
+
 .pink-banner {
+    font-family: "Mukta-ExtraBold";
     font-size: 40px;
     font-weight: 800;
     line-height: 40px;
@@ -56,6 +67,7 @@
 }
 
 .contact-button {
+    font-family: "Mukta-ExtraBold";
     margin-right: -24% !important;
     background-color: #dc5078 !important;
     border-radius: 0% !important;

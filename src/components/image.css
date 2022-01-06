@@ -4,16 +4,22 @@
     background-size: cover;
 }
 
+.full-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
 .linked-icon {
     align-self: flex-start;
     text-align: start;
     padding: 25px;
-    /* font-family: Mukta; */
+    font-family: "Mukta-Bold";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 14px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     color: #463950;
 }
 
@@ -33,6 +39,7 @@
 }
 
 .matrix-title {
+    font-family: "Mukta-ExtraBold";
     width: 450px !important;
     position: absolute;
     top: 743px;
@@ -47,12 +54,12 @@
 }
 
 .matrix-subtitle {
+    font-family: "Spectral-ExtraBold";
     width: 358px !important;
     position: absolute;
     top: 808px;
     left: 108px;
     z-index: 10;
-    font-family: Spectral;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -62,7 +69,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-
     .matrix-title {
         width: 220px !important;
         position: absolute;
@@ -90,5 +96,9 @@
         line-height: 16px;
         letter-spacing: 0.02em;
         color: #463950;
+    }
+
+    .hidden-text {
+        display: none;
     }
 }

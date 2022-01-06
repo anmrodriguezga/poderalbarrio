@@ -51,8 +51,8 @@ const Projects = () => {
                     style={{ paddingTop: '90px', marginLeft: '20px', paddingRight: '10vw' }}
                 >
                     <div className='banner-text-title'>Proyectos</div>
-                    <p><b>Creación desde el diseño y lo audiovisual,
-                        programas de salud, formación, mapeo y más.</b></p>
+                    <p className='banner-text-subtitle'>Creación desde el diseño y lo audiovisual,
+                        programas de salud, formación, mapeo y más.</p>
                     <p>Aquí encontrarás proyectos relacionados al
                         fortalecimiento y la participación barrial
                         en Bogotá, consulta y comparte cada uno de

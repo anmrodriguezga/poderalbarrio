@@ -1,3 +1,14 @@
+/* Mukta */
+@font-face {
+  font-family: "Mukta-Regular";
+  src: local("Mukta-Regular"), url(./fonts/Mukta-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Mukta-Bold";
+  src: local("Mukta-Bold"), url(./fonts/Mukta-Bold.ttf) format("truetype");
+}
+
 @font-face {
   font-family: "Mukta-ExtraBold";
   src: local("Mukta-ExtraBold"), url(./fonts/Mukta-ExtraBold.ttf) format("truetype");
@@ -8,22 +19,40 @@
   src: local("Mukta-ExtraLight"), url(./fonts/Mukta-ExtraLight.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "Spectral-Italic";
-  src: local("Spectral-Italic"), url(./fonts/SPECTRAL-ITALIC.TTF) format("truetype");
-}
-
+/* Spectral */
 @font-face {
   font-family: "Spectral-Regular";
   src: local("Spectral-Regular"), url(./fonts/SPECTRAL-REGULAR.TTF) format("truetype");
 }
 
+@font-face {
+  font-family: "Spectral-ExtraBold";
+  src: local("Spectral-ExtraBold"), url(./fonts/SPECTRAL-EXTRABOLD.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "Spectral-ExtraBold";
+  src: local("Spectral-ExtraBold"), url(./fonts/SPECTRAL-EXTRABOLD.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "Spectral-ExtraLight";
+  src: local("Spectral-ExtraLight"), url(./fonts/SPECTRAL-EXTRALIGHT.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "Spectral-Italic";
+  src: local("Spectral-Italic"), url(./fonts/SPECTRAL-ITALIC.TTF) format("truetype");
+}
+
+
 body {
+  overflow-x: hidden;
   margin: 0;
-  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Mukta-Regular", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   letter-spacing: 0.05em;
   color: #381347;
@@ -79,6 +108,11 @@ code {
   border-radius: 0;
   background: rgba(70, 57, 80, 0.3);
   margin: 0 7px 7px 0;
+}
+
+.show>.btn-success.dropdown-toggle,
+.btn-success:focus {
+  background-color: #381347 !important;
 }
 
 .btn-success:hover {

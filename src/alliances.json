@@ -1,0 +1,20 @@
+{
+    "sites": [
+        {
+            "site": {
+                "id": 0,
+                "name": "site1",
+                "image": "/assets/ejemplo1.jpg",
+                "url": "https://example.com/"
+            }
+        },
+        {
+            "site": {
+                "id": 1,
+                "name": "site2",
+                "image": "/assets/ejemplo2.jpg",
+                "url": "https://example.com/"
+            }
+        }
+    ]
+}

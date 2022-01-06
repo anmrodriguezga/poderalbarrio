@@ -12,6 +12,7 @@ const Banner = (props) => {
                     size={4}
                     frames={6}
                     imageType='aliado'
+                    linkable={true}
                 />
             );
         }
@@ -30,7 +31,7 @@ const Banner = (props) => {
                     <Col xs={9} sm={8} md={6} lg={7} xl={5} className='banner-text'>
                         <Container>
                             <div className='banner-text-title'>{props.title}</div>
-                            <p><b>{props.subtitle}</b></p>
+                            <p className='banner-text-subtitle'>{props.subtitle}</p>
                             <p>{props.text}</p>
                         </Container>
                     </Col>
@@ -44,7 +45,7 @@ const Banner = (props) => {
                     <Col xs={9} md={5} className='banner-text-inverted'>
                         <Container>
                             <div className='banner-text-title-inverted pink-banner'>{props.title}</div>
-                            <p><b>{props.subtitle}</b></p>
+                            <p className='banner-text-subtitle'>{props.subtitle}</p>
                             <p>{props.text}</p>
                             <Button className='contact-button'>Contáctanos</Button>
                         </Container>

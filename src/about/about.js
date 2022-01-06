@@ -38,7 +38,7 @@ const About = () => {
                 <Col>
                     <Banner
                         title="Alianzas"
-                        subtitle="Estas son los aliados que nos han apoyado a lo largo o en 
+                        subtitle="Estos son los aliados que nos han apoyado a lo largo o en 
                         algún momento de nuestro camino."
                         text="División de Extensión de la Universidad Nacional de Colombia, 
                         Junta de Acción Comunal del barrio Luis Carlos Galán, Biblioteca 

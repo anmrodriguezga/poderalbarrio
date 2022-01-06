@@ -9,3 +9,9 @@
 .app-date-picker {
     margin: 0 8px 12px 8px !important;
 }
+
+.drop-menu {
+    font-family: "Spectral-Light";
+    font-size: 16px !important;
+    line-height: 30px !important;
+}
