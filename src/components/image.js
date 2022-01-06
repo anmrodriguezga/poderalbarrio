@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as solidIcons from "@fortawesome/free-solid-svg-icons";
+import { sites } from '../alliances.json'
 import './image.css'
 
 export const LinkableImage = (props) => {
@@ -23,6 +24,25 @@ export const LinkableImage = (props) => {
     );
 }
 
+export const DownloadableImage = (props) => {
+    var buttonColor = props.inverted ? '#ffffff' : '#463950';
+    var arrowColor = props.inverted ? '#463950' : '#ffffff';
+    return (
+        <div className='full-img' style={{ backgroundImage: 'url(' + props.image + ')' }}>
+            <div className='linked-icon'>
+                <a href={props.publicationLink} download className='no-style-link'>
+                    <FontAwesomeIcon icon={solidIcons.faSquareFull} size='2x' style={{ color: buttonColor }} />
+                    <FontAwesomeIcon icon={solidIcons.faArrowDown} style={{ color: arrowColor, marginLeft: '-34px', marginBottom: '8px' }} />
+                    <p style={{ color: buttonColor }} className='hidden-text'>
+                        <br></br>
+                        Descargar
+                    </p>
+                </a>
+            </div>
+        </div>
+    );
+}
+
 export const ImageMatrix = (props) => {
     var baseUrl = '/assets/thumbnails';
     var data = [];
@@ -37,19 +57,22 @@ export const ImageMatrix = (props) => {
     while (data.length < props.frames) data.push('/assets/thumbnail.jpg');
 
     const listImgs = data.map((d, index) => {
+        var url = props.linkable ? sites[index]?.site.url : null;
         return (
             <Col key={index} className='thumbnail'>
-                <Image className='thumbnail-img' alt='thumbnail' src={d} />
+                <a href={url}>
+                    <Image className='thumbnail-img' alt='thumbnail' src={d} />
+                </a>
             </Col>
         );
     });
 
     return (
-        <Row className='g-0 justify-content-center' 
+        <Row className='g-0 justify-content-center'
             xs={props.size}
-            sm={props.size} 
-            md={props.size} 
-            lg={props.size} 
+            sm={props.size}
+            md={props.size}
+            lg={props.size}
             xl={props.size}
         >
             <div className='matrix-title'>
@@ -60,7 +83,7 @@ export const ImageMatrix = (props) => {
             </div>
 
             {listImgs}
-            
+
         </Row>
     );
 }

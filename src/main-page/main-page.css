@@ -61,8 +61,8 @@ div.header {
 }
 
 .continuousTitle {
+  font-family: "Spectral-Light";
   margin-top: -50px !important;
-  font-family: Spectral;
   font-style: normal;
   font-weight: 300;
   font-size: 130px;
@@ -72,6 +72,7 @@ div.header {
 }
 
 .continuousSubtitle {
+  font-family: "Mukta-Bold";
   margin-bottom: -100px;
   font-style: normal;
   font-weight: bold;
@@ -95,13 +96,13 @@ div.header {
 
 .book-card-left {
   width: 100%;
-  height: 35vw;
+  height: 40vw;
   padding: 0 20px 40px 0;
 }
 
 .book-card-right {
   width: 100%;
-  height: 35vw;
+  height: 40vw;
   padding: 0 0 40px 20px;
 }
 
@@ -143,13 +144,13 @@ div.header {
 
   .book-card-left {
     width: 100%;
-    height: 40vw;
+    height: 50vw;
     padding: 5px;
   }
   
   .book-card-right {
     width: 100%;
-    height: 40vw;
+    height: 50vw;
     padding: 5px;
   }
 }
