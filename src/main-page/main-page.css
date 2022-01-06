@@ -22,18 +22,30 @@ div.header {
   align-content: center;
 }
 
-.title {
+.title-bold {
+  font-family: "Mukta-ExtraBold";
   font-size: 100px;
   font-weight: bold;
   line-height: 117px;
   text-align: center;
-  letter-spacing: 0.01em;
-  color: #525252;
+  letter-spacing: 0.05em;
+  color: #463950;
+  overflow-wrap: break-word;
+}
+
+.title-light {
+  font-family: "Mukta-ExtraLight";
+  font-size: 100px;
+  font-weight: 200;
+  line-height: 117px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #463950;
   overflow-wrap: break-word;
 }
 
 .subtitle {
-  font-family: Spectral;
+  font-family: 'Spectral-Italic';
   font-style: italic;
   font-weight: 500;
   font-size: 30px;
@@ -69,6 +81,45 @@ div.header {
   color: #5090dc;
 }
 
+.card-left {
+  width: 100%;
+  height: 50vw;
+  padding: 0 20px 40px 0;
+}
+
+.card-right {
+  width: 100%;
+  height: 50vw;
+  padding: 0 0 40px 20px;
+}
+
+.book-card-left {
+  width: 100%;
+  height: 35vw;
+  padding: 0 20px 40px 0;
+}
+
+.book-card-right {
+  width: 100%;
+  height: 35vw;
+  padding: 0 0 40px 20px;
+}
+
+.search-button {
+  background-color: #463950 !important;
+  border-radius: 0% !important;
+  border-color: #463950 !important;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  width: 216px;
+  height: 50px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 8px
+}
+
 @media only screen and (max-width: 767px) {
   .standardDiv {
     justify-content: start;
@@ -76,5 +127,29 @@ div.header {
     background-color: #eae8ee;
     text-align: center;
     align-content: center;
+  }
+
+  .card-right {
+    width: 100%;
+    height: 75vw;
+    padding: 5px;
+  }
+
+  .card-left {
+    width: 100%;
+    height: 75vw;
+    padding: 5px;
+  }
+
+  .book-card-left {
+    width: 100%;
+    height: 40vw;
+    padding: 5px;
+  }
+  
+  .book-card-right {
+    width: 100%;
+    height: 40vw;
+    padding: 5px;
   }
 }

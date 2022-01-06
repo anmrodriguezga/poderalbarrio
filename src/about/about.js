@@ -31,6 +31,7 @@ const About = () => {
                 publicaciones.'
                 size={6}
                 frames={10}
+                imageType='equipo'
             />
 
             <Row className='g-0 standardDiv'>

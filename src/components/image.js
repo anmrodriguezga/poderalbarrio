@@ -29,8 +29,9 @@ export const ImageMatrix = (props) => {
     var context = require.context("../../public/assets/thumbnails", false, /\.(png|jpe?g|svg)$/);
     context.keys().forEach((filename) => {
         var result = baseUrl + filename.substring(1);
-        console.log(result);
-        data.push(result);
+        if (result.includes(props.imageType)) {
+            data.push(result);
+        }
     });
 
     while (data.length < props.frames) data.push('/assets/thumbnail.jpg');

@@ -11,6 +11,7 @@ const Banner = (props) => {
                 <ImageMatrix 
                     size={4}
                     frames={6}
+                    imageType='aliado'
                 />
             );
         }
@@ -42,7 +43,7 @@ const Banner = (props) => {
                 <Row className='banner'>
                     <Col xs={9} md={5} className='banner-text-inverted'>
                         <Container>
-                            <div className='banner-text-title-inverted'>{props.title}</div>
+                            <div className='banner-text-title-inverted pink-banner'>{props.title}</div>
                             <p><b>{props.subtitle}</b></p>
                             <p>{props.text}</p>
                             <Button className='contact-button'>Contáctanos</Button>

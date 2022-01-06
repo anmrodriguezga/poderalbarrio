@@ -1,0 +1,11 @@
+.drop-title {
+    pointer-events: none;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.app-date-picker {
+    margin: 0 8px 12px 8px !important;
+}

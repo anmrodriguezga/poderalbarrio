@@ -13,10 +13,10 @@ const Home = () => {
                 // style={{ backgroundImage: 'url(/assets/ejemplo1.jpg)' }}
             >
                 <Col>
-                    <p className='title'>
-                        <span>Poder</span>
-                        <span style={{ fontWeight: '100' }}>al</span>
-                        <span>barrio</span>
+                    <p>
+                        <span className='title-bold'>Poder</span>
+                        <span className='title-light'>al</span>
+                        <span className='title-bold'>barrio</span>
                     </p>
                     <p className='subtitle'>por la participación y el fortalecimiento desde los barrios.</p>
                 </Col>
