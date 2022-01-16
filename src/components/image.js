@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Image } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as solidIcons from "@fortawesome/free-solid-svg-icons";
 import { sites } from '../alliances.json'
 import './image.css'
 
@@ -11,8 +9,9 @@ export const LinkableImage = (props) => {
         <div className='full-height-img' style={{ backgroundImage: 'url(' + props.image + ')' }}>
             <div className='linked-icon'>
                 <Link to={props.url} className='no-style-link'>
-                    <FontAwesomeIcon icon={solidIcons.faSquareFull} size='2x' />
-                    <FontAwesomeIcon icon={solidIcons.faChevronRight} style={{ color: '#ffffff', marginLeft: '-30px', marginBottom: '10px' }} />
+                    {/* <FontAwesomeIcon icon={solidIcons.faSquareFull} size='2x' />
+                    <FontAwesomeIcon icon={solidIcons.faChevronRight} style={{ color: '#ffffff', marginLeft: '-30px', marginBottom: '10px' }} /> */}
+                    <RouterIcon />
                     <p>
                         <br></br>
                         Consultar
@@ -31,8 +30,10 @@ export const DownloadableImage = (props) => {
         <div className='full-img' style={{ backgroundImage: 'url(' + props.image + ')' }}>
             <div className='linked-icon'>
                 <a href={props.publicationLink} download className='no-style-link'>
-                    <FontAwesomeIcon icon={solidIcons.faSquareFull} size='2x' style={{ color: buttonColor }} />
-                    <FontAwesomeIcon icon={solidIcons.faArrowDown} style={{ color: arrowColor, marginLeft: '-34px', marginBottom: '8px' }} />
+                    <DownloadIcon
+                        buttonColor={buttonColor}
+                        arrowColor={arrowColor}
+                    />
                     <p style={{ color: buttonColor }} className='hidden-text'>
                         <br></br>
                         Descargar
@@ -86,4 +87,28 @@ export const ImageMatrix = (props) => {
 
         </Row>
     );
+}
+
+const DownloadIcon = (props) => {
+    return (
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" fill={props.buttonColor} />
+            <g transform="translate(12.5,12.5)">
+                <path d="M4.6665 7.11108L12.1559 15.6666L19.3332 7.11108" stroke={props.arrowColor} strokeWidth="2" strokeLinecap="square" />
+                <path d="M12 13.2222V1" stroke={props.arrowColor} strokeWidth="2" strokeLinecap="square" />
+                <path d="M1 21.7778H23" stroke={props.arrowColor} strokeWidth="2" strokeLinecap="square" />
+            </g>
+        </svg>
+    )
+}
+
+const RouterIcon = () => {
+    return (
+        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" fill="#463950" />
+            <g transform="translate(20,15)">
+                <path d="M2 20L13 10.8085L2 2" stroke="white" strokeWidth="2" strokeLinecap="square" />
+            </g>
+        </svg>
+    )
 }

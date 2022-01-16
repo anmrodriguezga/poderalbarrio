@@ -28,12 +28,12 @@ const Publications = () => {
                     <div className='banner-text-title-inverted'>Publicaciones</div>
                     <p className='banner-text-subtitle'>Cartillas, artículos y compilados de infografías
                         resultado de los proyectos de la organización.</p>
-                    <p>En esta sección encontrarás publicaciones relacionadas
+                    <p className='banner-text-light' style={{ textAlign: 'right' }}>En esta sección encontrarás publicaciones relacionadas
                         a temas como trabajo informal, derecho y salud laboral,
                         espacio público y barrial. Te invitamos a leer y compartir
                         cada uno de los recursos que aquí consignamos.</p>
                     <br /><br /><br /><br />
-                    <p>Puedes escoger una o varias de las siguientes categorías
+                    <p className='banner-text-light' style={{ textAlign: 'right' }}>Puedes escoger una o varias de las siguientes categorías
                         para filtrar los documentos:</p>
                 </Container>
                 <Row className='d-flex justify-content-end'>
@@ -107,7 +107,7 @@ const Publications = () => {
                     className='banner-text'
                     style={{ paddingTop: '20px', paddingLeft: '20px', paddingRight: '20vw' }}
                 >
-                    <p className='banner-text-subtitle'>Los derechos de reproducción de estas publicaciones
+                    <p className='banner-text'>Los derechos de reproducción de estas publicaciones
                         se encuentran limitados, se permite únicamente su difusión
                         e impresión para fines sin ánimo de lucro y dándo crédito
                         al autor y la organización.</p>

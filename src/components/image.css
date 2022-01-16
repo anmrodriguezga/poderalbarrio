@@ -14,12 +14,12 @@
     align-self: flex-start;
     text-align: start;
     padding: 25px;
-    font-family: "Mukta-Bold";
+    font-family: "Averia-Bold";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 14px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     color: #463950;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .matrix-title {
-    font-family: "Mukta-ExtraBold";
+    font-family: "Averia-Bold";
     width: 450px !important;
     position: absolute;
     top: 743px;
@@ -54,7 +54,7 @@
 }
 
 .matrix-subtitle {
-    font-family: "Spectral-ExtraBold";
+    font-family: "Spectral-Bold";
     width: 358px !important;
     position: absolute;
     top: 808px;
