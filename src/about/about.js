@@ -40,9 +40,9 @@ const About = () => {
                         title="Alianzas"
                         subtitle="Estos son los aliados que nos han apoyado a lo largo o en 
                         algún momento de nuestro camino."
-                        text="División de Extensión de la Universidad Nacional de Colombia, 
-                        Junta de Acción Comunal del barrio Luis Carlos Galán, Biblioteca 
-                        Comunitaria Pozo del Saber, Fundación Aspirantes.org, MasterPeace."
+                        text="División de Extensión y Programa de Interacción Social y 
+                        Comunitaria de la Universidad Nacional de Colombia / JAC Luis 
+                        Carlos Galán / Biblioteca el Pozo del Saber / Fundación Aspirantes.org."
                         inverted={true}
                         innerMatrix={true}
                     // Uncomment next line to add image:

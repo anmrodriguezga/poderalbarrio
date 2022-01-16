@@ -53,7 +53,7 @@ const Projects = () => {
                     <div className='banner-text-title'>Proyectos</div>
                     <p className='banner-text-subtitle'>Creación desde el diseño y lo audiovisual,
                         programas de salud, formación, mapeo y más.</p>
-                    <p>Aquí encontrarás proyectos relacionados al
+                    <p className='banner-text-light'>Aquí encontrarás proyectos relacionados al
                         fortalecimiento y la participación barrial
                         en Bogotá, consulta y comparte cada uno de
                         estos proyectos. A continuación, puedes escoger

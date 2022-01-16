@@ -26,9 +26,7 @@ const Home = () => {
                 <Col>
                     <Banner
                         title="Bienvenido(a)"
-                        subtitle="Poder al Barrio es una organización sin ánimo de lucro 
-                        conformada desde el 2020."
-                        text="Nuestro objetivo es velar por el fortalecimiento de los barrios 
+                        subtitle="Nuestro objetivo es velar por el fortalecimiento de los barrios 
                         y de las personas que habitan en estos desde un enfoque interdisciplinar 
                         que permita la generación de proyectos y soluciones integrales."
                         inverted={true}
