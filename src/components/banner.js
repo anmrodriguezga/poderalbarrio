@@ -28,11 +28,11 @@ const Banner = (props) => {
                     >
                         {InnerMatrix(props.innerMatrix)}
                     </Col>
-                    <Col xs={9} sm={8} md={6} lg={7} xl={5} className='banner-text'>
+                    <Col xs={9} sm={8} md={6} lg={7} xl={5} className='banner-text d-flex flex-column align-self-end'>
                         <Container>
                             <div className='banner-text-title'>{props.title}</div>
                             <p className='banner-text-subtitle'>{props.subtitle}</p>
-                            <p>{props.text}</p>
+                            <p className='banner-text-light'>{props.text}</p>
                         </Container>
                     </Col>
                 </Row>
