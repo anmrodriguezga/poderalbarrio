@@ -40,7 +40,7 @@ const Home = () => {
                 <Col xs={12} md={6}>
                     <LinkableImage 
                         page='PROYECTOS' 
-                        url='/projects'
+                        url='/poderalbarrio/projects'
                         // Uncomment next line to add image:
                         image='/assets/ejemplo1.jpg' 
                     />
@@ -48,7 +48,7 @@ const Home = () => {
                 <Col xs={12} md={6}>
                     <LinkableImage 
                         page='PUBLICACIONES'
-                        url='/publications' 
+                        url='/poderalbarrio/publications' 
                         // Uncomment next line to add image:
                         image='/assets/ejemplo2.jpg' 
                     />
