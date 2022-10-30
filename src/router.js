@@ -20,10 +20,10 @@ const Router = () => {
         <>
             <ScrollToTop />
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/about" element={<About />} />
-                <Route exact path="/projects" element={<Projects />} />
-                <Route exact path="/publications" element={<Publications />} />
+                <Route exact path="/poderalbarrio/" element={<Home />} />
+                <Route exact path="/poderalbarrio/about" element={<About />} />
+                <Route exact path="/poderalbarrio/projects" element={<Projects />} />
+                <Route exact path="/poderalbarrio/publications" element={<Publications />} />
             </Routes>
         </>
     );
