@@ -22,12 +22,12 @@ const Projects = () => {
                 <Image
                     className='card-left'
                     alt='img'
-                    src='/assets/thumbnail.jpg'
+                    src='./assets/thumbnail.jpg'
                 />
                 <Image
                     className='card-left'
                     alt='img'
-                    src='/assets/thumbnail.jpg'
+                    src='./assets/thumbnail.jpg'
                 />
                 <Container style={{ marginLeft: '3vw' }}>
                     <br />
@@ -84,12 +84,12 @@ const Projects = () => {
                 <Image
                     className='card-right'
                     alt='img'
-                    src='/assets/thumbnail.jpg'
+                    src='./assets/thumbnail.jpg'
                 />
                 <Image
                     className='card-right'
                     alt='img'
-                    src='/assets/thumbnail.jpg'
+                    src='./assets/thumbnail.jpg'
                 />
             </Col>
         </Row>

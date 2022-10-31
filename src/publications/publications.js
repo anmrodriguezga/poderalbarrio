@@ -59,14 +59,14 @@ const Publications = () => {
                 <br />
                 <div className='book-card-left'>
                     <DownloadableImage
-                        publicationLink='/assets/publications/drogas-licitas-e-ilicitas1.pdf'
-                        image='/assets/publications/drogas-licitas-e-ilicitas1.png'
+                        publicationLink='./assets/publications/drogas-licitas-e-ilicitas1.pdf'
+                        image='./assets/publications/drogas-licitas-e-ilicitas1.png'
                     />
                 </div>
                 <div className='book-card-left'>
                     <DownloadableImage
-                        publicationLink='/assets/publications/ejemplo4.pdf'
-                        image='/assets/publications/ejemplo4.png'
+                        publicationLink='./assets/publications/ejemplo4.pdf'
+                        image='./assets/publications/ejemplo4.png'
                         inverted={true}
                     />
                 </div>
@@ -81,25 +81,25 @@ const Publications = () => {
                 <Image
                     className='book-card-right'
                     alt='img'
-                    src='/assets/ejemplo2.jpg'
+                    src='./assets/ejemplo2.jpg'
                 />
                 <div className='book-card-right'>
                     <DownloadableImage
-                        publicationLink='/assets/publications/habitantes-de-calle3.pdf'
-                        image='/assets/publications/habitantes-de-calle3.png'
+                        publicationLink='./assets/publications/habitantes-de-calle3.pdf'
+                        image='./assets/publications/habitantes-de-calle3.png'
                     />
                 </div>
                 <div className='book-card-right'>
                     <DownloadableImage
-                        publicationLink='/assets/publications/ejemplo3.pdf'
-                        image='/assets/publications/ejemplo3.png'
+                        publicationLink='./assets/publications/ejemplo3.pdf'
+                        image='./assets/publications/ejemplo3.png'
                         inverted={true}
                     />
                 </div>
                 <div className='book-card-right'>
                     <DownloadableImage
-                        publicationLink='/assets/publications/ejemplo5.pdf'
-                        image='/assets/publications/ejemplo5.png'
+                        publicationLink='./assets/publications/ejemplo5.pdf'
+                        image='./assets/publications/ejemplo5.png'
                         inverted={true}
                     />
                 </div>

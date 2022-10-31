@@ -45,7 +45,7 @@ export const DownloadableImage = (props) => {
 }
 
 export const ImageMatrix = (props) => {
-    var baseUrl = '/assets/thumbnails';
+    var baseUrl = './assets/thumbnails';
     var data = [];
     var context = require.context("../../public/assets/thumbnails", false, /\.(png|jpe?g|svg)$/);
     context.keys().forEach((filename) => {
@@ -55,13 +55,13 @@ export const ImageMatrix = (props) => {
         }
     });
 
-    while (data.length < props.frames) data.push('/assets/thumbnail.jpg');
+    while (data.length < props.frames) data.push('./assets/thumbnail.jpg');
 
     const listImgs = data.map((d, index) => {
         var url = props.linkable ? sites[index]?.site.url : null;
         return (
             <Col key={index} className='thumbnail'>
-                <a href={url}>
+                <a href={url} target="_blank" rel="noopener noreferrer">
                     <Image className='thumbnail-img' alt='thumbnail' src={d} />
                 </a>
             </Col>

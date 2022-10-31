@@ -3,17 +3,31 @@
         {
             "site": {
                 "id": 0,
-                "name": "site1",
-                "image": "/assets/ejemplo1.jpg",
-                "url": "https://example.com/"
+                "name": "Biblioteca Comunitaria El Pozo del Saber",
+                "url": "https://www.facebook.com/biblioteca.elpozodelsaber/"
             }
         },
         {
             "site": {
                 "id": 1,
-                "name": "site2",
-                "image": "/assets/ejemplo2.jpg",
-                "url": "https://example.com/"
+                "name": "JAC Luis Carlos Galán",
+                "url": "https://es-la.facebook.com/JAC.L.C.Galan/"
+            }
+        }
+        ,
+        {
+            "site": {
+                "id": 2,
+                "name": "PIC UNAL",
+                "url": "http://artes.bogota.unal.edu.co/pic"
+            }
+        }
+        ,
+        {
+            "site": {
+                "id": 3,
+                "name": "Fundación Aspirantes.org",
+                "url": "https://www.instagram.com/aspirantesorg/?hl=es"
             }
         }
     ]

@@ -7,10 +7,10 @@ import '../main-page/main-page.css'
 const Home = () => {
     return (
         <>
-            <Row className='g-0 fullHeight' 
-                style={{backgroundColor: '#E5E5E5'}}
+            <Row className='g-0 fullHeight'
+                // style={{backgroundColor: '#E5E5E5'}}
                 // Uncomment next line to add image:
-                // style={{ backgroundImage: 'url(/assets/ejemplo1.jpg)' }}
+                style={{ backgroundImage: 'url(./assets/portada.png)' }}
             >
                 <Col>
                     <p>
@@ -30,38 +30,38 @@ const Home = () => {
                         y de las personas que habitan en estos desde un enfoque interdisciplinar 
                         que permita la generación de proyectos y soluciones integrales."
                         inverted={true}
-                        // Uncomment next line to add image:
-                        // url="/assets/ejemplo2.jpg"
+                    // Uncomment next line to add image:
+                    // url="/assets/ejemplo2.jpg"
                     />
                 </Col>
             </Row>
 
             <Row className='g-0 standardDiv'>
                 <Col xs={12} md={6}>
-                    <LinkableImage 
-                        page='PROYECTOS' 
+                    <LinkableImage
+                        page='PROYECTOS'
                         url='/poderalbarrio/projects'
                         // Uncomment next line to add image:
-                        image='/assets/ejemplo1.jpg' 
+                        image='./assets/ejemplo1.jpg'
                     />
                 </Col>
                 <Col xs={12} md={6}>
-                    <LinkableImage 
+                    <LinkableImage
                         page='PUBLICACIONES'
-                        url='/poderalbarrio/publications' 
+                        url='/poderalbarrio/publications'
                         // Uncomment next line to add image:
-                        image='/assets/ejemplo2.jpg' 
+                        image='./assets/ejemplo2.jpg'
                     />
                 </Col>
             </Row>
-            
+
             <Row className='g-0 standardDiv'>
                 <Col>
-                    <Banner 
-                        title="¿Tienes alguna duda, comentario o propuesta?" 
-                        inverted={false} 
-                        // Uncomment next line to add image:
-                        // url="/assets/ejemplo2.jpg"
+                    <Banner
+                        title="¿Tienes alguna duda, comentario o propuesta?"
+                        inverted={false}
+                    // Uncomment next line to add image:
+                    // url="/assets/ejemplo2.jpg"
                     />
                 </Col>
             </Row>
