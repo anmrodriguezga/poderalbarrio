@@ -170,3 +170,19 @@ input {
 .form-control {
   float: left;
 }
+
+.modal-title {
+  color: #dc5078;
+  font-size: 2.5em;
+}
+
+.modal-body {
+  color: #463950;
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
+
+.my-modal {
+  width: 60%;
+  max-width: none !important;
+} 

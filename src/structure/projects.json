@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "title": "Dignificación del imaginario sobre los oficios de calle",
+            "description": "En el Barrio Luis Carlos Galán y zonas aledañas, así como en gran parte de la ciudad de Bogotá (y de Colombia), hay personas que se ganan la vida trabajando en los denominados oficios de calle. Con el objetivo de contribuir a la dignificación de dichas labores, resaltando el esfuerzo de quienes las realizan, así como su creatividad para resolver tecnológicamente su desarrollo, se elaboraron ocho clips para ser enviados por redes sociales como Tik Tok o Facebook, en donde se abordan aspectos de los puestos de comida, los carreteros, las chazas y las habilidades que se requieren para trabajar en estos oficios.",
+            "date": "02-01-2022",
+            "keywords": [
+                "Oficio de calle",
+                "tecnología",
+                "puestos de comida",
+                "carreteros",
+                "habilidades",
+                "chazas"
+            ],
+            "image": "./assets/projects/Proyecto 1.PNG"
+        },
+        {
+            "id": 1,
+            "title": "Reconocimiento y concientización sobre el trabajo informal",
+            "description": "Otra modalidad de trabajo muy generalizada es el trabajo informal. Este proyecto se abordó tanto desde tres aproximaciones: legislativa, estadística y experiencial. Con el fin de concientizar sobre aspectos relacionados con dicha forma de trabajo, se elaboraron cinco capítulos de una serie denominada “El todero y la veci”, donde se abordan una serie de vicisitudes que enfrenta una persona que trabaja informalmente.",
+            "date": "01-01-2022",
+            "keywords": [
+                "Informalidad",
+                "desprotección",
+                "explotación laboral",
+                "todero"
+            ],
+            "image": "./assets/projects/Proyecto 2.PNG"
+        },
+        {
+            "id": 2,
+            "title": "Salud para trabajadores en calle",
+            "description": "Este proyecto abordó las necesidades de salud de personas que trabajan en calle, proponiendo posibles soluciones enmarcadas en su estilo de vida. Desde un enfoque de enfermería, se identificaron posibles problemas de salud relacionados con las condiciones laborales del trabajo en calle o informal, a la vez que se escucharon las historias de diferentes personas del Barrio Luis Carlos Galán y barrios aledaños: transportadores, habitantes de calle, carreteros y trabajadores de oficina. Se realizaron sesiones de revisión de salud y seguimiento en salud, para luego proponer recomendaciones del manejo en salud, organizados en cuatro grupos de riesgo principales en el trabajo informal. Además, se establecieron lineamientos de autocuidado para el consumo de sustancias psicoactivas que son más frecuentes en los jóvenes, adultos jóvenes y adultos de los estratos medios y bajos.",
+            "date": "12-01-2021",
+            "keywords": [
+                "Salud",
+                "informalidad",
+                "riesgos",
+                "sustancias psicoactivas"
+            ],
+            "image": "./assets/projects/Proyecto 3.PNG"
+        },
+        {
+            "id": 3,
+            "title": "Programa juvenil",
+            "description": "Una de las formas más efectivas para aprender es mediante la realización de actividades lúdicas. Por ello se diseñó y realizó un programa para los niños entre 8 y 15 años del Barrio Luis Carlos Galán que incluyó: aprendizaje de microfútbol, visita a dos estadios (Alfonso López Pumarejo y El Campín) y Maloka. Además, se realizaron talleres en los cuales se abordaron temas como el trabajo, el dinero, la convivencia, la seguridad, el juego y la felicidad.",
+            "date": "02-01-2022",
+            "keywords": [
+                "Informalidad",
+                "desprotección",
+                "explotación laboral",
+                "todero"
+            ],
+            "image": "./assets/projects/Proyecto 4.PNG"
+        },
+        {
+            "id": 4,
+            "title": "Mejoramiento de la imagen y el comercio del Barrio Luis Carlos Galán",
+            "description": "Con base en la identificación de una serie de problemáticas urbanas del barrio entre 2005 y 2014, el reconocimiento de los atractivos del barrio por parte de personas internas y externas, así como mediante un proceso participativo con la comunidad, se diseñó la marca Luis Carlos Galán. Esta incluye el logosímbolo, logotipo, manual de marca, pendones de ruta ambiental, cultural y gastronómica, así como el mapa de ubicación de dichos pendones. ",
+            "date": "02-01-2022",
+            "keywords": [
+                "Informalidad",
+                "desprotección",
+                "explotación laboral",
+                "todero"
+            ],
+            "image": "./assets/projects/Proyecto 5.PNG"
+        }
+    ]
+}

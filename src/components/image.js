@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Image } from 'react-bootstrap';
-import { sites } from '../alliances.json'
+import { sites } from '../structure/alliances.json'
 import './image.css'
 
 export const LinkableImage = (props) => {
@@ -59,10 +59,11 @@ export const ImageMatrix = (props) => {
 
     const listImgs = data.map((d, index) => {
         var url = props.linkable ? sites[index]?.site.url : null;
+        var title = sites[index]?.site.name;
         return (
             <Col key={index} className='thumbnail'>
                 <a href={url} target="_blank" rel="noopener noreferrer">
-                    <Image className='thumbnail-img' alt='thumbnail' src={d} />
+                    <Image className='thumbnail-img' alt='thumbnail' src={d} title={title} />
                 </a>
             </Col>
         );
