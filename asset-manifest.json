@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/poderalbarrio/static/css/main.f7d3242c.chunk.css",
-    "main.js": "/poderalbarrio/static/js/main.d27de98c.chunk.js",
-    "main.js.map": "/poderalbarrio/static/js/main.d27de98c.chunk.js.map",
-    "runtime-main.js": "/poderalbarrio/static/js/runtime-main.3813992e.js",
-    "runtime-main.js.map": "/poderalbarrio/static/js/runtime-main.3813992e.js.map",
+    "main.css": "/poderalbarrio/static/css/main.e69f5e73.chunk.css",
+    "main.js": "/poderalbarrio/static/js/main.abd7291a.chunk.js",
+    "main.js.map": "/poderalbarrio/static/js/main.abd7291a.chunk.js.map",
+    "runtime-main.js": "/poderalbarrio/static/js/runtime-main.53b9b6cf.js",
+    "runtime-main.js.map": "/poderalbarrio/static/js/runtime-main.53b9b6cf.js.map",
     "static/css/2.0a9ec390.chunk.css": "/poderalbarrio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.a8f9d3c9.chunk.js": "/poderalbarrio/static/js/2.a8f9d3c9.chunk.js",
-    "static/js/2.a8f9d3c9.chunk.js.map": "/poderalbarrio/static/js/2.a8f9d3c9.chunk.js.map",
-    "static/js/3.cb444623.chunk.js": "/poderalbarrio/static/js/3.cb444623.chunk.js",
-    "static/js/3.cb444623.chunk.js.map": "/poderalbarrio/static/js/3.cb444623.chunk.js.map",
+    "static/js/2.a6f528a5.chunk.js": "/poderalbarrio/static/js/2.a6f528a5.chunk.js",
+    "static/js/2.a6f528a5.chunk.js.map": "/poderalbarrio/static/js/2.a6f528a5.chunk.js.map",
+    "static/js/3.720383b9.chunk.js": "/poderalbarrio/static/js/3.720383b9.chunk.js",
+    "static/js/3.720383b9.chunk.js.map": "/poderalbarrio/static/js/3.720383b9.chunk.js.map",
     "index.html": "/poderalbarrio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/poderalbarrio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.f7d3242c.chunk.css.map": "/poderalbarrio/static/css/main.f7d3242c.chunk.css.map",
-    "static/js/2.a8f9d3c9.chunk.js.LICENSE.txt": "/poderalbarrio/static/js/2.a8f9d3c9.chunk.js.LICENSE.txt",
+    "static/css/main.e69f5e73.chunk.css.map": "/poderalbarrio/static/css/main.e69f5e73.chunk.css.map",
+    "static/js/2.a6f528a5.chunk.js.LICENSE.txt": "/poderalbarrio/static/js/2.a6f528a5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/poderalbarrio/static/media/SPECTRAL-REGULAR.cd863c5e.TTF",
     "static/media/BibliotecaElPozodelSaber_aliado.jpg": "/poderalbarrio/static/media/BibliotecaElPozodelSaber_aliado.78f2ce60.jpg",
     "static/media/JAC_aliado.jpg": "/poderalbarrio/static/media/JAC_aliado.83df8fc4.jpg",
@@ -22,10 +22,10 @@
     "static/media/logo.2eb341ad.svg": "/poderalbarrio/static/media/logo.2eb341ad.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3813992e.js",
+    "static/js/runtime-main.53b9b6cf.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.a8f9d3c9.chunk.js",
-    "static/css/main.f7d3242c.chunk.css",
-    "static/js/main.d27de98c.chunk.js"
+    "static/js/2.a6f528a5.chunk.js",
+    "static/css/main.e69f5e73.chunk.css",
+    "static/js/main.abd7291a.chunk.js"
   ]
 }
