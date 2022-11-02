@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/poderalbarrio/static/css/main.e69f5e73.chunk.css",
-    "main.js": "/poderalbarrio/static/js/main.abd7291a.chunk.js",
-    "main.js.map": "/poderalbarrio/static/js/main.abd7291a.chunk.js.map",
-    "runtime-main.js": "/poderalbarrio/static/js/runtime-main.53b9b6cf.js",
-    "runtime-main.js.map": "/poderalbarrio/static/js/runtime-main.53b9b6cf.js.map",
+    "main.css": "/poderalbarrio/static/css/main.560920dc.chunk.css",
+    "main.js": "/poderalbarrio/static/js/main.9acec8e8.chunk.js",
+    "main.js.map": "/poderalbarrio/static/js/main.9acec8e8.chunk.js.map",
+    "runtime-main.js": "/poderalbarrio/static/js/runtime-main.8ceae79c.js",
+    "runtime-main.js.map": "/poderalbarrio/static/js/runtime-main.8ceae79c.js.map",
     "static/css/2.0a9ec390.chunk.css": "/poderalbarrio/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.a6f528a5.chunk.js": "/poderalbarrio/static/js/2.a6f528a5.chunk.js",
-    "static/js/2.a6f528a5.chunk.js.map": "/poderalbarrio/static/js/2.a6f528a5.chunk.js.map",
-    "static/js/3.720383b9.chunk.js": "/poderalbarrio/static/js/3.720383b9.chunk.js",
-    "static/js/3.720383b9.chunk.js.map": "/poderalbarrio/static/js/3.720383b9.chunk.js.map",
+    "static/js/2.5030c7b6.chunk.js": "/poderalbarrio/static/js/2.5030c7b6.chunk.js",
+    "static/js/2.5030c7b6.chunk.js.map": "/poderalbarrio/static/js/2.5030c7b6.chunk.js.map",
+    "static/js/3.d2ccc27a.chunk.js": "/poderalbarrio/static/js/3.d2ccc27a.chunk.js",
+    "static/js/3.d2ccc27a.chunk.js.map": "/poderalbarrio/static/js/3.d2ccc27a.chunk.js.map",
     "index.html": "/poderalbarrio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/poderalbarrio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.e69f5e73.chunk.css.map": "/poderalbarrio/static/css/main.e69f5e73.chunk.css.map",
-    "static/js/2.a6f528a5.chunk.js.LICENSE.txt": "/poderalbarrio/static/js/2.a6f528a5.chunk.js.LICENSE.txt",
+    "static/css/main.560920dc.chunk.css.map": "/poderalbarrio/static/css/main.560920dc.chunk.css.map",
+    "static/js/2.5030c7b6.chunk.js.LICENSE.txt": "/poderalbarrio/static/js/2.5030c7b6.chunk.js.LICENSE.txt",
+    "static/media/1_equipo_Karen_Lange_Morales.jpg": "/poderalbarrio/static/media/1_equipo_Karen_Lange_Morales.d732fe0c.jpg",
+    "static/media/2_equipo_Kevin_David_Garcia_Barrera.jpg": "/poderalbarrio/static/media/2_equipo_Kevin_David_Garcia_Barrera.3bf6eaed.jpg",
+    "static/media/3_equipo_Juan_Sebastian_Rodriguez_Rodriguez.png": "/poderalbarrio/static/media/3_equipo_Juan_Sebastian_Rodriguez_Rodriguez.49e80a5b.png",
+    "static/media/4_equipo_Valentina_Orduz_Bonilla.jpg": "/poderalbarrio/static/media/4_equipo_Valentina_Orduz_Bonilla.465f930a.jpg",
+    "static/media/5_equipo_Sergio_Ivan_Russi_Quintanta.jpg": "/poderalbarrio/static/media/5_equipo_Sergio_Ivan_Russi_Quintanta.9ff8a595.jpg",
+    "static/media/6_equipo_Andres_Rodriguez.jpg": "/poderalbarrio/static/media/6_equipo_Andres_Rodriguez.76d89011.jpg",
     "static/media/index.css": "/poderalbarrio/static/media/SPECTRAL-REGULAR.cd863c5e.TTF",
     "static/media/BibliotecaElPozodelSaber_aliado.jpg": "/poderalbarrio/static/media/BibliotecaElPozodelSaber_aliado.78f2ce60.jpg",
     "static/media/JAC_aliado.jpg": "/poderalbarrio/static/media/JAC_aliado.83df8fc4.jpg",
@@ -22,10 +28,10 @@
     "static/media/logo.2eb341ad.svg": "/poderalbarrio/static/media/logo.2eb341ad.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.53b9b6cf.js",
+    "static/js/runtime-main.8ceae79c.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.a6f528a5.chunk.js",
-    "static/css/main.e69f5e73.chunk.css",
-    "static/js/main.abd7291a.chunk.js"
+    "static/js/2.5030c7b6.chunk.js",
+    "static/css/main.560920dc.chunk.css",
+    "static/js/main.9acec8e8.chunk.js"
   ]
 }
