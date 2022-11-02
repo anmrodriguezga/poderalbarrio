@@ -50,11 +50,12 @@
     font-size: 40px;
     line-height: 66px;
     letter-spacing: 0.05em;
-    color: #463950;
+    color: #dc5078;
+    text-shadow: 4px 4px 8px #000000;
 }
 
 .matrix-subtitle {
-    font-family: "Spectral-Bold";
+    font-family: "Averia-Bold";
     width: 358px !important;
     position: absolute;
     top: 808px;
@@ -65,7 +66,8 @@
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.02em;
-    color: #463950;
+    color: #dc5078;
+    text-shadow: 4px 4px 4px #000000;
 }
 
 @media only screen and (max-width: 767px) {

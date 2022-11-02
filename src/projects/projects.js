@@ -13,7 +13,6 @@ const Projects = () => {
     const toggleShow = (index) => {
         setShow(p => !p);
         setId(index);
-        console.log(index)
     }
 
     const projListL = projects.map((value, index) => {
@@ -36,7 +35,7 @@ const Projects = () => {
             return (
                 <Image
                     key={index}
-                    className='card-left'
+                    className='card-right'
                     alt='img'
                     src={value.image}
                     onClick={() => toggleShow(index)}
@@ -48,7 +47,7 @@ const Projects = () => {
 
     return (
         <>
-            <CustomModal show={show} id={id} toggleShow={toggleShow}/>
+            <CustomModal show={show} id={id} toggleShow={toggleShow} resources={projects}/>
             <Row className='g-0 justify-content-center'
                 xs={12}
                 sm={12}

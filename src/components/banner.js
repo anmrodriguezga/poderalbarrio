@@ -12,7 +12,9 @@ const Banner = (props) => {
                     size={4}
                     frames={6}
                     imageType='aliado'
+                    opacity={1}
                     linkable={true}
+                    source='sites'
                 />
             );
         }
