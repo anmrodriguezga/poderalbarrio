@@ -7,7 +7,7 @@
             "date": "01-01-2022",
             "keywords": [ "Audiovisual" ],
             "image": "./assets/publications/publicacion1.png",
-            "url": "./assets/publications/Publicación 1.PNG"
+            "url": ""
         },
         {
             "id": 1,
@@ -25,7 +25,7 @@
             "date": "12-01-2021",
             "keywords": [ "Audiovisual" ],
             "image": "./assets/publications/publicacion3.png",
-            "url": ""
+            "url": "https://www.youtube.com/embed/videoseries?list=PLbff-Z3jV8ZmRnwUlh93PenbGG7mxUi8H"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "date": "02-01-2022",
             "keywords": [ "Archivos en pdf" ],
             "image": "./assets/publications/publicacion4.png",
-            "url": ""
+            "url": "./assets/publications/Marca_LCG.pdf"
         },
         {
             "id": 4,

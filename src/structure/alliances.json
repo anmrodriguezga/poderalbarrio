@@ -1,34 +1,24 @@
 {
     "sites": [
         {
-            "site": {
-                "id": 0,
-                "name": "Biblioteca Comunitaria El Pozo del Saber",
-                "url": "https://www.facebook.com/biblioteca.elpozodelsaber/"
-            }
+            "id": 0,
+            "name": "Biblioteca Comunitaria El Pozo del Saber",
+            "url": "https://www.facebook.com/biblioteca.elpozodelsaber/"
         },
         {
-            "site": {
-                "id": 1,
-                "name": "JAC Luis Carlos Galán",
-                "url": "https://es-la.facebook.com/JAC.L.C.Galan/"
-            }
-        }
-        ,
+            "id": 1,
+            "name": "JAC Luis Carlos Galán",
+            "url": "https://es-la.facebook.com/JAC.L.C.Galan/"
+        },
         {
-            "site": {
-                "id": 2,
-                "name": "Programa de Interacción Social y Comunitaria UNAL",
-                "url": "http://artes.bogota.unal.edu.co/pic"
-            }
-        }
-        ,
+            "id": 2,
+            "name": "Programa de Interacción Social y Comunitaria UNAL",
+            "url": "http://artes.bogota.unal.edu.co/pic"
+        },
         {
-            "site": {
-                "id": 3,
-                "name": "Fundación Aspirantes.org",
-                "url": "https://www.instagram.com/aspirantesorg/?hl=es"
-            }
+            "id": 3,
+            "name": "Fundación Aspirantes.org",
+            "url": "https://www.instagram.com/aspirantesorg/?hl=es"
         }
     ]
 }

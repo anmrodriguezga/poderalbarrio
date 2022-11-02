@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Image } from 'react-bootstrap';
 import { sites } from '../structure/alliances.json'
+import { members } from '../structure/team.json'
 import './image.css'
 
 export const LinkableImage = (props) => {
@@ -9,8 +10,6 @@ export const LinkableImage = (props) => {
         <div className='full-height-img' style={{ backgroundImage: 'url(' + props.image + ')' }}>
             <div className='linked-icon'>
                 <Link to={props.url} className='no-style-link'>
-                    {/* <FontAwesomeIcon icon={solidIcons.faSquareFull} size='2x' />
-                    <FontAwesomeIcon icon={solidIcons.faChevronRight} style={{ color: '#ffffff', marginLeft: '-30px', marginBottom: '10px' }} /> */}
                     <RouterIcon />
                     <p>
                         <br></br>
@@ -58,12 +57,27 @@ export const ImageMatrix = (props) => {
     while (data.length < props.frames) data.push('./assets/thumbnail.jpg');
 
     const listImgs = data.map((d, index) => {
-        var url = props.linkable ? sites[index]?.site.url : null;
-        var title = sites[index]?.site.name;
+        var src = [];
+        switch (props.source) {
+            case 'sites':
+                src = sites;
+                console.log('sites')
+                break;
+            case 'members':
+                src = members;
+                console.log('members')
+                break;
+            default:
+                break;
+        }
+
+        var url = props.linkable ? src[index]?.url : null;
+        let title = (src[index]?.name ?? "").concat('\n', src[index]?.role ?? "");
+
         return (
             <Col key={index} className='thumbnail'>
                 <a href={url} target="_blank" rel="noopener noreferrer">
-                    <Image className='thumbnail-img' alt='thumbnail' src={d} title={title} />
+                    <Image className='thumbnail-img' alt='thumbnail' src={d} title={title} style={{ opacity: props.opacity }} />
                 </a>
             </Col>
         );

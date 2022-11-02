@@ -11,6 +11,14 @@ export const CustomModal = (props) => {
 
     var formattedDate = monthNames[date.getMonth()] + ' de ' + date.getFullYear();
 
+    let youTubeVideo = resources[id]?.url?.includes('youtube') ?
+        <iframe width="100%" height="375" src={resources[id].url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        : null;
+
+    let pdfFile = resources[id]?.url?.includes('.pdf') ?
+        <embed width="100%" height= "375" src={resources[id].url} type="application/pdf"></embed>
+        : null;
+
     return (
         <>
             <Modal dialogClassName='my-modal' show={show} onHide={toggleShow} centered>
@@ -20,6 +28,9 @@ export const CustomModal = (props) => {
                 <Modal.Dialog style={{ fontSize: '1.4em' }}>{formattedDate}</Modal.Dialog>
                 <Modal.Body>
                     {resources[id]?.description}
+                    <br></br><br></br>
+                    { youTubeVideo }
+                    { pdfFile }
                 </Modal.Body>
                 <Modal.Footer>{resources[id]?.keywords.join(', ').toString()}</Modal.Footer>
             </Modal>

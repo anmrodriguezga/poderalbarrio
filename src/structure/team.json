@@ -1,0 +1,34 @@
+{
+    "members": [
+        {
+            "id": 0,
+            "name": "Karen Lange Morales",
+            "role": "Directora académica"
+        },
+        {
+            "id": 1,
+            "name": "Kevin David García Barrera",
+            "role": "Director ejecutivo / narrativas"
+        },
+        {
+            "id": 2,
+            "name": "Juan Sebastián Rodríguez Rodríguez",
+            "role": "Registro videográfico y producción audiovisual"
+        },
+        {
+            "id": 3,
+            "name": "Valentina Orduz Bonilla",
+            "role": "Investigadora en temas de Estadística"
+        },
+        {
+            "id": 4,
+            "name": "Sergio Iván Russi Quintana",
+            "role": "Investigador en temas de Derecho"
+        },
+        {
+            "id": 5,
+            "name": "Andrés Mauricio Rodríguez Garzón",
+            "role": "Diseño web"
+        }
+    ]
+}
