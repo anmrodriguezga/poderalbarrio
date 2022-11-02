@@ -1,0 +1,49 @@
+{
+    "publications": [
+        {
+            "id": 0,
+            "title": "Tecnologías del Rebusque",
+            "description": "Serie de ocho clips de medio minuto aproximadamente donde se abordan aspectos de los puestos de comida, los carreteros, las chazas y las habilidades que se requieren para trabajar en estos oficios. Está asociado al proyecto 'Dignificación del imaginario sobre los oficios de calle'.",
+            "date": "01-01-2022",
+            "keywords": [ "Audiovisual" ],
+            "image": "./assets/publications/publicacion1.png",
+            "url": "./assets/publications/Publicación 1.PNG"
+        },
+        {
+            "id": 1,
+            "title": "El Todero y la Veci",
+            "description": "Serie de cinco capítulos que relata un día de la vida de un trabajador informal, ilustrando los problemas que enfrenta. Está asociado al proyecto 'Concientización sobre el trabajo informal'.",
+            "date": "02-01-2022",
+            "keywords": [ "Audiovisual" ],
+            "image": "./assets/publications/publicacion2.png",
+            "url": ""
+        },
+        {
+            "id": 2,
+            "title": "Autocuidado en el consumo de SPA",
+            "description": "Serie de 20 clips que dan recomendaciones para el autocuidado si la persona decide consumir alcohol, bazuco, boxer, chamber, cigarrillo, LSD, marihuana o tussi. Está asociado al proyecto 'Salud para trabajadores en calle'",
+            "date": "12-01-2021",
+            "keywords": [ "Audiovisual" ],
+            "image": "./assets/publications/publicacion3.png",
+            "url": ""
+        },
+        {
+            "id": 3,
+            "title": "Marca del Barrio Luis Carlos Galán",
+            "description": "Logotipo, logosímbolo, manual de marca, pendones de rutas ambiental, cultural y gastronómica del barrio, así como mapa de ubicación de los pendones y calendarios 2022 para imprimir. Está asociado al proyecto 'Mejoramiento de la imagen y el comercio del Barrio Luis Carlos Galán'.",
+            "date": "02-01-2022",
+            "keywords": [ "Archivos en pdf" ],
+            "image": "./assets/publications/publicacion4.png",
+            "url": ""
+        },
+        {
+            "id": 4,
+            "title": "Imágenes de concientización para redes sociales",
+            "description": "36 imágenes diseñadas para redes sociales, con el objetivo de concientizar a las personas sobre la problemática e inequidad asociada a las condiciones laborales (informalidad, subempleo, emprendimiento, formalidad) Está asociado al proyecto 'Reconocimiento y concientización sobre el trabajo informal'.",
+            "date": "03-01-2022",
+            "keywords": [ "Archivos en pdf" ],
+            "image": "./assets/publications/publicacion5.png",
+            "url": ""
+        }
+    ]
+}

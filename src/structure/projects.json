@@ -13,12 +13,13 @@
                 "habilidades",
                 "chazas"
             ],
-            "image": "./assets/projects/Proyecto 1.PNG"
+            "image": "./assets/projects/Proyecto 1.PNG",
+            "url": ""
         },
         {
             "id": 1,
             "title": "Reconocimiento y concientización sobre el trabajo informal",
-            "description": "Otra modalidad de trabajo muy generalizada es el trabajo informal. Este proyecto se abordó tanto desde tres aproximaciones: legislativa, estadística y experiencial. Con el fin de concientizar sobre aspectos relacionados con dicha forma de trabajo, se elaboraron cinco capítulos de una serie denominada “El todero y la veci”, donde se abordan una serie de vicisitudes que enfrenta una persona que trabaja informalmente.",
+            "description": "Otra modalidad de trabajo muy generalizada es el trabajo informal. Este proyecto se abordó desde tres aproximaciones: legislativa, estadística y experiencial. Con el fin de concientizar sobre aspectos relacionados con dicha forma de trabajo, se elaboraron cinco capítulos de una serie denominada “El todero y la veci”, donde se abordan una serie de vicisitudes que enfrenta una persona que trabaja informalmente.",
             "date": "01-01-2022",
             "keywords": [
                 "Informalidad",
@@ -26,7 +27,8 @@
                 "explotación laboral",
                 "todero"
             ],
-            "image": "./assets/projects/Proyecto 2.PNG"
+            "image": "./assets/projects/Proyecto 2.PNG",
+            "url": ""
         },
         {
             "id": 2,
@@ -39,7 +41,8 @@
                 "riesgos",
                 "sustancias psicoactivas"
             ],
-            "image": "./assets/projects/Proyecto 3.PNG"
+            "image": "./assets/projects/Proyecto 3.PNG",
+            "url": ""
         },
         {
             "id": 3,
@@ -52,7 +55,8 @@
                 "explotación laboral",
                 "todero"
             ],
-            "image": "./assets/projects/Proyecto 4.PNG"
+            "image": "./assets/projects/Proyecto 4.PNG",
+            "url": ""
         },
         {
             "id": 4,
@@ -65,7 +69,8 @@
                 "explotación laboral",
                 "todero"
             ],
-            "image": "./assets/projects/Proyecto 5.PNG"
+            "image": "./assets/projects/Proyecto 5.PNG",
+            "url": ""
         }
     ]
 }
