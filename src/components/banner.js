@@ -8,7 +8,7 @@ const Banner = (props) => {
     function InnerMatrix(innerMatrix) {
         if (innerMatrix) {
             return (
-                <ImageMatrix 
+                <ImageMatrix
                     size={4}
                     frames={6}
                     imageType='aliado'
@@ -24,9 +24,9 @@ const Banner = (props) => {
         return (
             <Container>
                 <Row className='banner'>
-                    <Col xs={10} sm={9} md={6} lg={5} xl={4} 
+                    <Col xs={10} sm={9} md={6} lg={5} xl={4}
                         className='banner-image'
-                        style={{ backgroundImage: 'url(' + props.url + ')', backgroundColor: background}}
+                        style={{ backgroundImage: 'url(' + props.url + ')', backgroundColor: background, opacity: props.opacity }}
                     >
                         {InnerMatrix(props.innerMatrix)}
                     </Col>
@@ -49,11 +49,13 @@ const Banner = (props) => {
                             <div className='banner-text-title-inverted pink-banner'>{props.title}</div>
                             <p className='banner-text-subtitle'>{props.subtitle}</p>
                             <p>{props.text}</p>
-                            <Button className='contact-button'>Contáctanos</Button>
+                            <a href="mailto:ciudadunidabog@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <Button className='contact-button'>Contáctanos</Button>
+                            </a>
                         </Container>
                     </Col>
                     <Col xs={10} md={5} className='banner-image'
-                        style={{ backgroundImage: 'url(' + props.url + ')', backgroundColor: background }}
+                        style={{ backgroundImage: 'url(' + props.url + ')', backgroundColor: background, opacity: props.opacity }}
                     >
                         {/* xs=12 md=8 */}
                     </Col>

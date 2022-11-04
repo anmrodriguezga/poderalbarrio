@@ -41,40 +41,37 @@
 .matrix-title {
     font-family: "Averia-Bold";
     width: 450px !important;
-    position: absolute;
-    top: 743px;
-    left: 108px;
+    position: relative;
+    top: 0;
+    left: 50px;
     z-index: 10;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 66px;
     letter-spacing: 0.05em;
-    color: #dc5078;
-    text-shadow: 4px 4px 8px #000000;
+    color: #463950;
 }
 
 .matrix-subtitle {
     font-family: "Averia-Bold";
     width: 358px !important;
-    position: absolute;
-    top: 808px;
-    left: 108px;
+    position: relative;
+    left: 50px;
     z-index: 10;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.02em;
-    color: #dc5078;
-    text-shadow: 4px 4px 4px #000000;
+    color: #463950;
 }
 
 @media only screen and (max-width: 767px) {
     .matrix-title {
         width: 220px !important;
-        position: absolute;
-        top: 743px;
+        position: relative;
+        top: 0;
         left: 25px;
         z-index: 10;
         font-style: normal;
@@ -87,8 +84,7 @@
 
     .matrix-subtitle {
         width: 220px !important;
-        position: absolute;
-        top: 808px;
+        position: relative;
         left: 25px;
         z-index: 10;
         font-family: Spectral;

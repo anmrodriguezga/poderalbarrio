@@ -47,7 +47,7 @@ const Projects = () => {
 
     return (
         <>
-            <CustomModal show={show} id={id} toggleShow={toggleShow} resources={projects}/>
+            <CustomModal show={show} id={id} toggleShow={toggleShow} resources={projects} />
             <Row className='g-0 justify-content-center'
                 xs={12}
                 sm={12}
@@ -69,7 +69,9 @@ const Projects = () => {
                             ¿Tienes interés en realizar un proyecto con nosotros?
                         </div>
                         <br />
-                        <Button className='contact-button'>Contáctanos</Button>
+                        <a href="mailto:ciudadunidabog@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <Button className='contact-button'>Contáctanos</Button>
+                        </a>
                         <br /><br /><br />
                     </Container>
                 </Col>

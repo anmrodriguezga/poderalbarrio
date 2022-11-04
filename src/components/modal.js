@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
+import { TikTok } from "react-tiktok";
 import '../main-page/main-page.css'
 
 export const CustomModal = (props) => {
@@ -19,6 +20,10 @@ export const CustomModal = (props) => {
         <embed width="100%" height= "375" src={resources[id].url} type="application/pdf"></embed>
         : null;
 
+    let tikTok = resources[id]?.url?.includes('tiktok') ?
+        <TikTok width="100%" height= "375" url={resources[id].url} />
+        : null;
+
     return (
         <>
             <Modal dialogClassName='my-modal' show={show} onHide={toggleShow} centered>
@@ -31,6 +36,7 @@ export const CustomModal = (props) => {
                     <br></br><br></br>
                     { youTubeVideo }
                     { pdfFile }
+                    { tikTok }
                 </Modal.Body>
                 <Modal.Footer>{resources[id]?.keywords.join(', ').toString()}</Modal.Footer>
             </Modal>

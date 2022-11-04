@@ -32,7 +32,7 @@ const About = () => {
                 size={6}
                 frames={10}
                 imageType='equipo'
-                opacity={0.7}
+                opacity={1}
                 source='members'
             />
 

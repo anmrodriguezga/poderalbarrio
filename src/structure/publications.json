@@ -7,7 +7,7 @@
             "date": "01-01-2022",
             "keywords": [ "Audiovisual" ],
             "image": "./assets/publications/publicacion1.png",
-            "url": ""
+            "url": "https://www.youtube.com/embed/videoseries?list=PLbff-Z3jV8Znz2XpdKk3eLTQaE3loQvp6"
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "date": "02-01-2022",
             "keywords": [ "Audiovisual" ],
             "image": "./assets/publications/publicacion2.png",
-            "url": ""
+            "url": "https://www.youtube.com/embed/videoseries?list=PLbff-Z3jV8ZlaYaiQERsQd0-JXRDMgKpM"
         },
         {
             "id": 2,
@@ -43,7 +43,7 @@
             "date": "03-01-2022",
             "keywords": [ "Archivos en pdf" ],
             "image": "./assets/publications/publicacion5.png",
-            "url": ""
+            "url": "./assets/publications/concientizacion.pdf"
         }
     ]
 }
