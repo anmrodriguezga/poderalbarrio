@@ -9,10 +9,10 @@ const Footer = () => {
             padding: 20, position: 'relative', bottom: '0', width: '100%'
         }}>
             <Container className='footer'>
-                <Nav.Link href="mailto: info@poderalbarrio.co">info@poderalbarrio.co</Nav.Link>
+                <Nav.Link href="mailto:ciudadunidabog@gmail.com">ciudadunidabog@gmail.com</Nav.Link>
                 <Nav className='footerLinks'>
                     <Row>
-                        <Col className='icons'>
+                        {/* <Col className='icons'>
                             <Nav.Link href="https://www.facebook.com/" target='_blank'>
                                 <FontAwesomeIcon icon={Icons.faFacebookF} size='2x' />
                             </Nav.Link>
@@ -21,10 +21,15 @@ const Footer = () => {
                             <Nav.Link href="https://www.instagram.com/" target='_blank'>
                                 <FontAwesomeIcon icon={Icons.faInstagram} size='2x' />
                             </Nav.Link>
+                        </Col> */}
+                        <Col className='icons'>
+                            <Nav.Link href="https://www.tiktok.com/@ciudadunida411?lang=es" target='_blank' rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={Icons.faTiktok} size='2x' />
+                            </Nav.Link>
                         </Col>
                         <Col className='icons'>
-                            <Nav.Link href="https://www.tiktok.com/" target='_blank'>
-                                <FontAwesomeIcon icon={Icons.faTiktok} size='2x' />
+                            <Nav.Link href="https://www.youtube.com/channel/UCjUSHOijgcDWkFwVEWSwZMQ" target='_blank' rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={Icons.faYoutube} size='2x' />
                             </Nav.Link>
                         </Col>
                     </Row>

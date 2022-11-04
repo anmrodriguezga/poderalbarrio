@@ -31,7 +31,8 @@ const Home = () => {
                         que permita la generación de proyectos y soluciones integrales."
                         inverted={true}
                     // Uncomment next line to add image:
-                    // url="/assets/ejemplo2.jpg"
+                        url="./assets/home2.jpg"
+                        opacity={0.8}
                     />
                 </Col>
             </Row>
@@ -61,7 +62,8 @@ const Home = () => {
                         title="¿Tienes alguna duda, comentario o propuesta?"
                         inverted={false}
                     // Uncomment next line to add image:
-                    // url="/assets/ejemplo2.jpg"
+                        url="./assets/home1.jpg"
+                        opacity={0.8}
                     />
                 </Col>
             </Row>

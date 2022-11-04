@@ -61,11 +61,9 @@ export const ImageMatrix = (props) => {
         switch (props.source) {
             case 'sites':
                 src = sites;
-                console.log('sites')
                 break;
             case 'members':
                 src = members;
-                console.log('members')
                 break;
             default:
                 break;
@@ -84,23 +82,26 @@ export const ImageMatrix = (props) => {
     });
 
     return (
-        <Row className='g-0 justify-content-center'
-            xs={props.size}
-            sm={props.size}
-            md={props.size}
-            lg={props.size}
-            xl={props.size}
-        >
+        <>
             <div className='matrix-title'>
                 {props.title}
             </div>
+            <br></br>
             <div className='matrix-subtitle'>
                 {props.subtitle}
             </div>
+            <br></br>
+            <Row className='g-0 justify-content-center'
+                xs={props.size}
+                sm={props.size}
+                md={props.size}
+                lg={props.size}
+                xl={props.size}
+            >
+                {listImgs}
 
-            {listImgs}
-
-        </Row>
+            </Row>
+        </>
     );
 }
 
